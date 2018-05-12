@@ -1,0 +1,117 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Verdant Games - Contact</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body class="no-sidebar">
+  <div id="page-wrapper">
+    <div id="header-wrapper">
+      <div id="header">
+        <h1><a href="index.html">Verdant Games</a></h1>
+        <nav id="nav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="products.php">Products</a></li>
+            <li><a href="promos.html">Promos</a></li>
+            <li><a href="info.html">Information</a></li>
+            <li class="current"><a href="contact.php">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div id="main-wrapper">
+      <div class="container">
+        <header class="large-header">
+          <h2>Contact</h2>
+        </header>
+        <div class="container">
+          <form action="contactform.php" method="post">
+
+            <label for="name">Name</label>
+            <input type="text" name="name" placeholder="Name">
+
+            <label for="email">Email</label>
+            <input type="text" name="email" placeholder="name@example.com">
+
+            <label for="subject">Subject</label>
+            <input type="text" name="subject" placeholder="Subject"></textarea>
+
+            <label for="message">Message</label>
+            <textarea name="message" placeholder="Message"></textarea>
+            <br/>
+            <button class="button alt" type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div id="footer-wrapper">
+      <section id="footer" class="container">
+        <div class="row">
+          <div class="4u 12u(mobile)">
+            <section>
+              <header>
+                <h2>Navigation</h2>
+              </header>
+              <ul class="divided">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="products.php">Products</a></li>
+                <li><a href="promos.html">Promos</a></li>
+                <li><a href="info.html">Information</a></li>
+                <li><a href="contact.php">Contact</a></li>
+              </ul>
+            </section>
+          </div>
+          <div class="4u 12u(mobile)">
+            <section>
+              <header>
+                <h2>External Links</h2>
+              </header>
+              <ul class="divided">
+                <li><a href="http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html">Java SE Runtime Environment 8</a></li>
+                <li><a href="unity3d.com">Unity 5 Game Engine</a></li>
+                <li><a href="https://www.yoyogames.com/gamemaker">Gamemaker Studio Game Engine</a></li>
+                <li><a href="https://na.leagueoflegends.com/en/">League of Legends</a></li>
+              </ul>
+            </section>
+          </div>
+          <div class="4u 12u(mobile)">
+            <section>
+              <header>
+                <h2>Social</h2>
+              </header>
+              <ul class="social">
+                <li><a target="_blank" class="icon fa-twitter" href="https://twitter.com/VerdantGamesLLC"><span class="label">Twitter</span></a></li>
+                <li><a target="_blank" class="icon fa-google-plus" href="https://plus.google.com/u/4/112080472874473017989"><span class="label">Github</span></a></li>
+                <li><a target="_blank" class="icon fa-github" href="https://github.com/VerdantGamesLLC"><span class="label">Github</span></a></li>
+              </ul>
+            </section>
+          </div>
+        </div>
+        <div class="row">
+          <div class="12u">
+            <div id="copyright">
+              <ul class="links">
+                <li>&copy; Verdant Games. All rights reserved.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/jquery.dropotron.min.js"></script>
+  <script src="assets/js/skel.min.js"></script>
+  <script src="assets/js/skel-viewport.min.js"></script>
+  <script src="assets/js/util.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
