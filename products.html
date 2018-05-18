@@ -1,146 +1,256 @@
 <!DOCTYPE HTML>
 <html>
-
-<head>
-  <title>Verdant Games - Products</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="assets/css/main.css">
-</head>
-
-<body class="no-sidebar">
-  <div id="page-wrapper">
-    <div id="header-wrapper">
-      <div id="header">
-        <h1><a href="index.html">Verdant Games</a></h1>
-        <nav id="nav">
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li class="current"><a href="products.html">Products</a></li>
-            <li><a href="promos.html">Promos</a></li>
-            <li><a href="info.html">Information</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </nav>
+  <head>
+    <title>Verdant Games - Products</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/main.css">
+  </head>
+  <body class="no-sidebar">
+    <div id="page-wrapper">
+      <div id="header-wrapper">
+        <div id="header">
+          <h1><a href="index.html">Verdant Games</a></h1>
+          <nav id="nav">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li class="current"><a href="products.html">Products</a></li>
+              <li><a href="promos.html">Promos</a></li>
+              <li><a href="info.html">Information</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
       </div>
-    </div>
-    <div id="main-wrapper">
-      <div class="container">
-        <header class="large-header">
-          <h2>Products</h2>
-        </header>
-        <hr/>
-        <section>
+      <div id="main-wrapper">
+        <div class="container">
+          <header class="large-header">
+            <h2>Products</h2>
+          </header>
+          <hr/>
+          <section>
+            <div class="row">
+              <div class="4u 12u(mobile)">
+                <section class="box" id="explorer">
+                  <a class="image featured"><img src="images/pic02.jpg" alt="explorer-image"></a>
+                  <header>
+                    <h3>Explorer</h3>
+                    <h5>STL</h5>
+                    <p>$30</p>
+                  </header>
+                  <p>Explorer is a 2D platformer where you <strong><em>explore</em></strong> the galaxy to defeat monsters, conquer planets, complete quests, battle space pirates and much more. You won't want to miss our latest release.</p>
+                  <footer>
+                    <button href="blogpost1.html" class="button alt">In Dev</button>
+                  </footer>
+                </section>
+              </div>
+              <div class="4u 12u(mobile)">
+                <section class="box" id="deathgauntlet">
+                  <a class="image featured"><img src="images/gaunt.jpg" alt="deathgauntlet-image"></a>
+                  <header>
+                    <h3>Death Gauntlet: Catacombs</h3>
+                    <h5>Unity</h5>
+                    <p>$20</p>
+                  </header>
+                  <p>Death Gauntlet: Catacombs is the epic sequal to the original Death Gauntlet. In this action-packed dungeon crawler you defeat dungeons, battle bosses, and join up with a friend in the exclusive co-op mode.</p>
+                  <footer>
+                    <button class="button alt" id="modalBtn">Purchase</button>
+                    <div id="myModal" class="modal">
+                      <!-- Modal content -->
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <span class="close"></span>
+                          <h2>Ready for checkout</h2>
+                        </div>
+                        <div class="modal-body">
+                          <h2>Payment Information</h2>
+                          <hr/>
+                          <select style="margin-top: 15px; width: 300px;">
+                            <option value="Visa">Visa</option>
+                            <option value="MasterCard">Master Card</option>
+                            <option value="AMX">American Express</option>
+                          </select>
+                          <br/>
+                          <input type="text" name="subject" placeholder="Card Number" style="margin-bottom: 15px; margin-right: 5px; width: 300px;">
+                          <select style="margin-bottom: 15px; margin-top: 15px; width: 50px;">
+                            <option value="Jan">1</option>
+                            <option value="Feb">2</option>
+                            <option value="Mar">3</option>
+                            <option value="Apr">4</option>
+                            <option value="May">5</option>
+                            <option value="Jun">6</option>
+                            <option value="Jul">7</option>
+                            <option value="Aug">8</option>
+                            <option value="Sept">9</option>
+                            <option value="Oct">10</option>
+                            <option value="Nov">11</option>
+                            <option value="Dec">12</option>
+                          </select>
+                          <select style="margin-bottom: 15px; margin-top: 15px; width: 60px;">
+                            <option value="Visa">2018</option>
+                            <option value="Visa">2019</option>
+                            <option value="Visa">2020</option>
+                            <option value="Visa">2021</option>
+                            <option value="Visa">2022</option>
+                          </select>
+                          <input type="text" name="subject" placeholder="CVV" style="margin-bottom: 15px; width: 50px; height: 25px"><br/>
+                          <input type="text" name="subject" placeholder="First Name" style="margin-bottom: 15px; width: 300px;">
+                          <input type="text" name="subject" placeholder="Last Name" style="margin-bottom: 15px; width: 300px;"><br/>
+                          <input type="text" name="subject" placeholder="Zip Code" style="margin-bottom: 15px; width: 300px;">
+                          <input type="text" name="subject" placeholder="Promo Code" style="margin-bottom: 15px; width: 300px;">
+                          <button class="button alt" style="float: right; margin-right: 15px;">Check Out</button>
+                        </div>
+                      </div>
+                    </div>
+                  </footer>
+                </section>
+              </div>
+              <div class="4u 12u(mobile)">
+                <section class="box" id="highnoon">
+                  <a class="image featured"><img src="images/hino.jpg" alt="highnoon-image"></a>
+                  <header>
+                    <h3>High Noon</h3>
+                    <h5>Gamemaker Studio</h5>
+                    <p>$10</p>
+                  </header>
+                  <p>High Noon is our oldest supported game, and our most popular. In this western shootem up, you wander aimlessly around the desert defeating bandits, slaying wolves, and breaking barrels.</p>
+                  <footer>
+                    <button class="button alt" id="modalBtn2">Purchase</button>
+                    <div id="myModal2" class="modal">
+                      <!-- Modal content -->
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <span class="close"></span>
+                          <h2>Ready for checkout</h2>
+                        </div>
+                        <div class="modal-body">
+                          <h2>Payment Information</h2>
+                          <hr/>
+                          <select style="margin-top: 15px; width: 300px;">
+                            <option value="Visa">Visa</option>
+                            <option value="MasterCard">Master Card</option>
+                            <option value="AMX">American Express</option>
+                          </select>
+                          <br/>
+                          <input type="text" name="subject" placeholder="Card Number" style="margin-bottom: 15px; margin-right: 5px; width: 300px;">
+                          <select style="margin-bottom: 15px; margin-top: 15px; width: 50px;">
+                            <option value="Jan">1</option>
+                            <option value="Feb">2</option>
+                            <option value="Mar">3</option>
+                            <option value="Apr">4</option>
+                            <option value="May">5</option>
+                            <option value="Jun">6</option>
+                            <option value="Jul">7</option>
+                            <option value="Aug">8</option>
+                            <option value="Sept">9</option>
+                            <option value="Oct">10</option>
+                            <option value="Nov">11</option>
+                            <option value="Dec">12</option>
+                          </select>
+                          <select style="margin-bottom: 15px; margin-top: 15px; width: 60px;">
+                            <option value="Visa">2018</option>
+                            <option value="Visa">2019</option>
+                            <option value="Visa">2020</option>
+                            <option value="Visa">2021</option>
+                            <option value="Visa">2022</option>
+                          </select>
+                          <input type="text" name="subject" placeholder="CVV" style="margin-bottom: 15px; width: 50px; height: 25px"><br/>
+                          <input type="text" name="subject" placeholder="First Name" style="margin-bottom: 15px; width: 300px;">
+                          <input type="text" name="subject" placeholder="Last Name" style="margin-bottom: 15px; width: 300px;"><br/>
+                          <input type="text" name="subject" placeholder="Zip Code" style="margin-bottom: 15px; width: 300px;">
+                          <input type="text" name="subject" placeholder="Promo Code" style="margin-bottom: 15px; width: 300px;">
+                          <button class="button alt" style="float: right; margin-right: 15px;">Check Out</button>
+                        </div>
+                      </div>
+                    </div>
+                  </footer>
+                </section>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+      <div id="footer-wrapper">
+        <section id="footer" class="container">
           <div class="row">
             <div class="4u 12u(mobile)">
-              <section class="box">
-                <a class="image featured"><img src="images/pic02.jpg" alt="explorer-image"></a>
+              <section>
                 <header>
-                  <h3>Explorer</h3>
-                  <h5>STL</h5>
-                  <p>$30</p>
+                  <h2>Navigation</h2>
                 </header>
-                <p>Explorer is a 2D platformer where you <strong><em>explore</em></strong> the galaxy to defeat monsters, conquer planets, complete quests, battle space pirates and much more. You won't want to miss our latest release.</p>
-                <footer>
-                  <a href="blogpost1.html" class="button alt">In Dev</a>
-                </footer>
+                <ul class="divided">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="products.html">Products</a></li>
+                  <li><a href="promos.html">Promos</a></li>
+                  <li><a href="info.html">Information</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
               </section>
             </div>
             <div class="4u 12u(mobile)">
-              <section class="box">
-                <a class="image featured"><img src="images/gaunt.jpg" alt="deathgauntlet-image"></a>
+              <section>
                 <header>
-                  <h3>Death Gauntlet: Catacombs</h3>
-                  <h5>Unity</h5>
-                  <p>$20</p>
+                  <h2>External Links</h2>
                 </header>
-                <p>Death Gauntlet: Catacombs is the epic sequal to the original Death Gauntlet. In this action-packed dungeon crawler you defeat dungeons, battle bosses, and join up with a friend in the exclusive co-op mode.</p>
-                <footer>
-                  <a href="#" class="button alt">Purchase</a>
-                </footer>
+                <ul class="divided">
+                  <li><a href="http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html">Java SE Runtime Environment 8</a></li>
+                  <li><a href="http://unity3d.com/">Unity 5 Game Engine</a></li>
+                  <li><a href="https://www.yoyogames.com/gamemaker/">Gamemaker: Studio Game Engine</a></li>
+                  <li><a href="https://na.leagueoflegends.com/en/">League of Legends</a></li>
+                </ul>
               </section>
             </div>
             <div class="4u 12u(mobile)">
-              <section class="box">
-                <a class="image featured"><img src="images/hino.jpg" alt="highnoon-image"></a>
+              <section>
                 <header>
-                  <h3>High Noon</h3>
-                  <h5>Gamemaker Studio</h5>
-                  <p>$10</p>
+                  <h2>Social</h2>
                 </header>
-                <p>High Noon is our oldest supported game, and our most popular. In this western shootem up, you wander aimlessly around the desert defeating bandits, slaying wolves, and breaking barrels.</p>
-                <footer>
-                  <a target="_blank" href="https://www.dropbox.com/s/wav2a6sf65f7iwa/High%20Noon.exe?dl=0" class="button alt">Purchase</a>
-                </footer>
+                <ul class="social">
+                  <li><a target="_blank" class="icon fa-twitter" href="https://twitter.com/VerdantGamesLLC"><span class="label">Twitter</span></a></li>
+                  <li><a target="_blank" class="icon fa-google-plus" href="https://plus.google.com/u/4/112080472874473017989"><span class="label">Github</span></a></li>
+                  <li><a target="_blank" class="icon fa-github" href="https://github.com/VerdantGamesLLC"><span class="label">Github</span></a></li>
+                </ul>
               </section>
+            </div>
+          </div>
+          <div class="row">
+            <div class="12u">
+              <div id="copyright">
+                <ul class="links">
+                  <li>&copy; Verdant Games. All rights reserved.</li>
+                </ul>
+              </div>
             </div>
           </div>
         </section>
       </div>
     </div>
-    <div id="footer-wrapper">
-      <section id="footer" class="container">
-        <div class="row">
-          <div class="4u 12u(mobile)">
-            <section>
-              <header>
-                <h2>Navigation</h2>
-              </header>
-              <ul class="divided">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="products.html">Products</a></li>
-                <li><a href="promos.html">Promos</a></li>
-                <li><a href="info.html">Information</a></li>
-                <li><a href="contact.html">Contact</a></li>
-              </ul>
-            </section>
-          </div>
-          <div class="4u 12u(mobile)">
-            <section>
-              <header>
-                <h2>External Links</h2>
-              </header>
-              <ul class="divided">
-                <li><a href="http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html">Java SE Runtime Environment 8</a></li>
-                <li><a href="http://unity3d.com/">Unity 5 Game Engine</a></li>
-                <li><a href="https://www.yoyogames.com/gamemaker/">Gamemaker: Studio Game Engine</a></li>
-                <li><a href="https://na.leagueoflegends.com/en/">League of Legends</a></li>
-              </ul>
-            </section>
-          </div>
-          <div class="4u 12u(mobile)">
-            <section>
-              <header>
-                <h2>Social</h2>
-              </header>
-              <ul class="social">
-                <li><a target="_blank" class="icon fa-twitter" href="https://twitter.com/VerdantGamesLLC"><span class="label">Twitter</span></a></li>
-                <li><a target="_blank" class="icon fa-google-plus" href="https://plus.google.com/u/4/112080472874473017989"><span class="label">Github</span></a></li>
-                <li><a target="_blank" class="icon fa-github" href="https://github.com/VerdantGamesLLC"><span class="label">Github</span></a></li>
-              </ul>
-            </section>
-          </div>
-        </div>
-        <div class="row">
-          <div class="12u">
-            <div id="copyright">
-              <ul class="links">
-                <li>&copy; Verdant Games. All rights reserved.</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
-  </div>
-  <script src="assets/js/jquery.min.js"></script>
-  <script src="assets/js/jquery.dropotron.min.js"></script>
-  <script src="assets/js/skel.min.js"></script>
-  <script src="assets/js/skel-viewport.min.js"></script>
-  <script src="assets/js/util.js"></script>
-  <script src="assets/js/main.js"></script>
-</body>
-
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.dropotron.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/skel-viewport.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script>
+      var modal = document.getElementById('myModal2');
+      var btn = document.getElementById("modalBtn2");
+      var span = document.getElementsByClassName("close")[0];
+      
+      btn.onclick = function() {
+      modal.style.display = "block";
+      }
+      
+      span.onclick = function() {
+      modal.style.display = "none";
+      }
+      
+      window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+      }
+    </script>
+  </body>
 </html>

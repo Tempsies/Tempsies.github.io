@@ -4,6 +4,24 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+var modal = document.getElementById('myModal');
+var btn = document.getElementById("modalBtn");
+var span = document.getElementsByClassName("close")[0];
+
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
 (function($) {
 
 	skel
